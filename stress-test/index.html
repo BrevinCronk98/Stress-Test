@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/scripts.js"></script>
+    <title>Stress Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Stress Test</h2>
+        </div>
+        <form id="stress-test">
+            <div class="form-group">
+                <p>Check boxes if they apply.</p>
+                <input type="checkbox" name="stress" id="sleep" value="1"> Lack of sleep. <br>
+                <input type="checkbox" name="stress" id="appetite" value="1"> Lack of appetite. <br>
+                <input type="checkbox" name="stress" id="overwhelmed" value="1"> Feel overwhelmed. <br>
+                <input type="checkbox" name="stress" id="headaches" value="1"> Headaches. <br>
+            </div>
+            <div class="form-group">
+                <p>Check Boxes that apply.</p>
+                <input type="checkbox" name="symptom" id="chestpain"> Chest Pain. <br>
+                <input type="checkbox" name="symptom" id="dizzy"> Dizziness. <br>
+                <input type="checkbox" name="symptom" id="anger"> Feelings of anger. <br>
+                <input type="checkbox" name="symptom" id="nausea"> Feelings of nausea. <br>
+            </div>
+            <div class="form-group">
+                <p>Check boxes that apply to how you deal with stress</p>
+                <input type="checkbox" name="coping" id="self"> Taking care of yourself. <br>
+                <input type="checkbox" name="coping" id="break"> Taking breaks. <br>
+                <input type="checkbox" name="coping" id="help"> Asking for help. <br>
+                <input type="checkbox" name="coping" id="eat"> Eating the right foods. <br>
+            </div>
+            <button type="submit"> Submit your survey </button>
+        </form>
+        <span id="result1"> 
+            <p>You are doing excellent keep going hard m8</p>
+        </span>
+        <span id="result2">
+            <p>Try coping more with yout stress you are almost there!!</p>
+        </span>
+        <span id="result3">
+            <p> You should probably go to a therapist...</p>
+        </span>
+    </div>
+    
+</body>
+</html>
